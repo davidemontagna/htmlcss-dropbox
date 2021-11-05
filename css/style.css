@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+    color: #000;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#logo, .lf-nav{
+    float: left;
+}
+
+#logo{
+    padding-right: 30px;
+}
+
+.lf-nav li, .rt-nav li{
+    display: inline-block;
+    margin: 0 15px
+}
+
+.rt-nav, .btn{
+    float: right;
+}
+
+.btn a, .rt-nav li a, .lf-nav li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.btn a{
+    background-color: #0061ff;
+    padding: 5px;
+}
