@@ -107,3 +107,35 @@ header{
     bottom: 385px;
     width: 65%;
 }
+
+/*Sezione Piano Business*/
+
+.second-section{
+    max-width: 80%;
+    margin: 15% auto;
+}
+
+#input{
+    margin: 50px 0px 20px;
+}
+
+#annual{
+    margin-left: 20px;
+}
+
+#annual, #monthly{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#annual:checked, #monthly:checked{
+    border: 3px solid #0061ff;
+}
