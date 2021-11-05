@@ -14,7 +14,7 @@ header{
     width: 100%;
     display: inline-block;
     margin: 0 auto;
-    background-color: red;
+    background-color: #fff;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,6 +35,7 @@ header{
     display: table;
 }
 
+/*Logo e navigazione nell'header*/
 #logo, .lf-nav{
     float: left;
 }
@@ -59,5 +60,44 @@ header{
 
 .btn a{
     background-color: #0061ff;
-    padding: 5px;
+    padding: 5px 20px;
+    color: #fff;
+    
+}
+
+.first-section{
+    max-height: 650px;
+    padding: 50px 115px;
+    margin: 50px 0;
+    background-color: #b4d0e7;
+}
+
+.first-section h1{
+    font-size: 60px;
+}
+
+.start-free-trial .btn{
+    float: none;
+    margin: 15px 0;
+    font-size: 25px;
+}
+
+.start-free-trial p{
+    font-size: 18px;
+}
+
+.start-free-trial p:first-of-type{
+    margin: 50px 0;
+}
+
+.fa-arrow-down{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.trial-image img{
+    position: relative;
+    left: 40%;
+    bottom: 284px;
+    width: 70%;
 }

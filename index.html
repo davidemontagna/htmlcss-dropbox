@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Dropbox</title>
 </head>
 <body>
     <header>
         <div class="container">
-            
+
+                <!--Inserimento logo-->
                 <div id="logo">
                     <img src="img/logo-small.png" alt="">
                 </div>
-
+                <!--Navigazione sinistra-->
                 <nav>
                     <div class="lf-nav">
                         <ul>
@@ -23,11 +25,12 @@
                             <li><a href="#">Piani e prezzi</a></li>                            
                         </ul>
                     </div>
-
+                    <!--Bottone "inizia" ho dovuto metterlo prima della navigazione
+                    a destra perchè altimenti me li invertiva e me lo metteva verso il centro-->
                     <div class="btn">
-                        <a href="#">Inizia</a>
+                        <a id="start-header" href="#">Inizia</a>
                     </div>
-
+                    <!--Navigazione destra-->
                     <div class="rt-nav">
                         <ul>
                             <li><a href="#">Supporto</a></li>
@@ -41,8 +44,26 @@
     </header>
 
     <main>
-        <section>
-
+        <!--Sezione con sfondo colorato e tasto per prova gratuita-->
+        <section class="first-section">
+            <div class="container">
+                <h1>Tutto ci&ograve; che ti serve per il lavoro, in un unico posto</h1>
+                <div class="start-free-trial">
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e<br>
+                    collaboratori sono accessibili dallo stesso posto.<br>
+                    Dropbox Business &egrave; pi&ugrave; di uno spazio di<br>
+                    archiviazione sicuro&#58; &egrave; un modo intelligente e<br>
+                    integrato per ottimizzare il flusso di lavoro esistente</p>
+                    <div class="btn">
+                        <a href="#">Inizia la tua prova gratuita</a>
+                    </div>
+                    <p>Annulla in qualsiasi momento</p>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+                <div class="trial-image">
+                    <img src="img/jumbo.png" alt="">
+                </div>
+            </div>
         </section>
     </main>
     
