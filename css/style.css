@@ -146,14 +146,24 @@ header{
 .column{
     width: 25%;
     border: 1px solid grey;
-    padding: 15px;
     text-align: center;
+    padding: 15px 15px;
+    float: left;
+    min-height: 1100px;
+}
+
+.column-middle{
+    margin: 0 165px;
 }
 
 .single-team{
     width: 100%;
     padding-bottom: 15px;
     border-bottom: 1px solid grey;
+}
+
+.column h3{
+    margin: 30px 0 20px;
 }
 
 .type-plan{
@@ -163,4 +173,35 @@ header{
 .type-plan i, .type-plan span{
     font-size: 15px;
     margin: 30px 0 15px 0;
+    
+}
+
+.btn-trial{
+    text-align: center;
+    background-color: #0061ff;
+    padding: 5px 20px;
+    margin: 35px 0 10px 0;
+}
+
+.btn-trial a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#highlights{
+    margin: 0 0 15px;
+}
+
+.type-plan hr{
+    width: 15%;
+    margin: 30px 0
+}
+
+.type-plan li{
+    font-size: 17px;
+    list-style: none;
+}
+
+.type-plan li i{
+    color: #0d69ff;
 }
