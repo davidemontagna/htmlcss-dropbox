@@ -238,10 +238,14 @@ header{
     font-size: 30px;
 }
 
-/*Terza sezione*/
-.third-section{
+/*Terza sezione Partnership*/
+.third-section, .fourth-section{
     width: 80%;
     margin: 0 auto;
+}
+
+#height-third-section{
+    min-height: 900px;
 }
 
 .third-section img{
@@ -268,4 +272,40 @@ header{
 .third-section .btn{
     float: left;
     margin-top: 25px;
+}
+
+/*Quarta sezione*/
+#height-fourth-section{
+    min-height: 1300px;
+}
+
+.operations{
+    width: 30%;
+    float: left;
+    margin: 30px auto;
+}
+
+.middle{
+    margin: 30px calc(100% - 95%);
+}
+
+.fourth-section h1{
+    font-size: 40px;
+}
+
+.operations img{
+    width: 100%;
+}
+
+.operations h3{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.operations p{
+    font-size: 22px;
+}
+
+.operations p a{
+    color: #000;
 }
