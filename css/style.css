@@ -329,6 +329,7 @@ header{
 /*Loghi clienti e recensioni*/
 .fifth-section{
     width: 100%;
+    min-height: 490px;
 }
 
 .customers-left, .customers-right{
@@ -404,4 +405,10 @@ header{
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 70px;
+}
+
+.container2{
+    max-height: 300px;
+    background-color: #b4d0e7;
+    padding: 250px;
 }
