@@ -155,7 +155,7 @@ header{
 }
 
 .single-team, .type-plan, .sales-office{
-    border: 1px solid grey;
+    border: 1px solid #d6d6d6;
     padding: 15px 15px;
 }
 
@@ -209,7 +209,7 @@ header{
 }
 
 .team-bottom{
-    border: 1px solid grey;
+    border: 1px solid #d6d6d6;
     border-bottom: none;
 }
 
@@ -239,7 +239,7 @@ header{
 }
 
 /*Terza sezione Partnership*/
-.third-section, .fourth-section{
+.third-section, .fourth-section, .fifth-section{
     width: 80%;
     margin: 0 auto;
 }
@@ -265,7 +265,7 @@ header{
 
 .third-section .btn a{
     background-color: #fff;
-    border: 1px solid grey;
+    border: 1px solid #4f4f4f;
     color: #000;
 }
 
@@ -276,21 +276,25 @@ header{
 
 /*Quarta sezione*/
 #height-fourth-section{
-    min-height: 1300px;
+    min-height: 1700px;
+}
+
+.row{
+    margin: 30px auto;
+    float: left;
 }
 
 .operations{
     width: 30%;
     float: left;
-    margin: 30px auto;
 }
 
 .middle{
-    margin: 30px calc(100% - 95%);
+    margin: 0 calc(100% - 95%);
 }
 
 .fourth-section h1{
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .operations img{
@@ -308,4 +312,13 @@ header{
 
 .operations p a{
     color: #000;
+}
+
+#link-customers{
+    margin: 30px auto 30px;
+    font-size: 15px;
+}
+
+#link-customers a{
+    color: #2879ff;
 }
