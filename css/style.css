@@ -72,14 +72,14 @@ header{
 
 /*Sezione con sfondo colorato e button per prova*/
 .first-section{
-    max-height: 735px;
+    max-height: 795px;
     padding: 50px 115px;
-    margin: 50px 0;
+    margin: 50px 0 100px;
     background-color: #b4d0e7;
 }
 
 .first-section h1{
-    font-size: 83px;
+    font-size: 90px;
 }
 
 .start-free-trial .btn{
@@ -104,15 +104,15 @@ header{
 .trial-image img{
     position: relative;
     left: 30%;
-    bottom: 385px;
-    width: 65%;
+    bottom: 330px;
+    width: 60%;
 }
 
 /*Sezione Piano Business*/
 
 .second-section{
     max-width: 80%;
-    margin: 15% auto;
+    margin: 200px auto;
 }
 
 /*Checkboxes*/
@@ -144,36 +144,38 @@ header{
 /*Colonne Piano Business*/
 
 .column{
-    width: 25%;
-    border: 1px solid grey;
+    width: 25%; 
     text-align: center;
-    padding: 15px 15px;
     float: left;
-    min-height: 1100px;
+    margin-bottom: 50px;
 }
 
 .column-middle{
     margin: 0 165px;
 }
 
-.single-team{
-    width: 100%;
-    padding-bottom: 15px;
-    border-bottom: 1px solid grey;
+.single-team, .type-plan, .sales-office{
+    border: 1px solid grey;
+    padding: 15px 15px;
 }
 
-.column h3{
+.single-team{
+    width: 100%;
+    border-bottom: none;
+}
+
+.column h3, .sales-office h5{
     margin: 30px 0 20px;
 }
 
 .type-plan{
     text-align: left;
+    min-height: 1100px;
 }
 
 .type-plan i, .type-plan span{
     font-size: 15px;
-    margin: 30px 0 15px 0;
-    
+    margin: 30px 0 15px 0;    
 }
 
 .btn-trial{
@@ -204,4 +206,66 @@ header{
 
 .type-plan li i{
     color: #0d69ff;
+}
+
+.team-bottom{
+    border: 1px solid grey;
+    border-bottom: none;
+}
+
+.column-big{
+    position: relative;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.sales-office{
+    text-align: left;
+}
+
+.office-btn{
+    position: absolute;
+    right: 15px;
+    top: 40px;
+}
+
+.sales-office h5{
+    font-size: 20px;
+}
+
+.sales-office h3{
+    font-size: 30px;
+}
+
+/*Terza sezione*/
+.third-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.third-section img{
+    width: 60%;
+    float: left;
+    margin-right: 100px;
+}
+
+.third-section h1{
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.third-section p{
+    line-height: 40px;
+}
+
+.third-section .btn a{
+    background-color: #fff;
+    border: 1px solid grey;
+    color: #000;
+}
+
+.third-section .btn{
+    float: left;
+    margin-top: 25px;
 }
