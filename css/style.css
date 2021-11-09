@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-size: 20px;
     color: #000;
@@ -358,6 +362,7 @@ header{
 
 #top-1-left{
     background-color: #a2d39b;
+    box-shadow:0px 0px 0px 10px #d0e9cd inset;
 }
 
 #top-2-left{
@@ -410,5 +415,105 @@ header{
 .container2{
     max-height: 300px;
     background-color: #b4d0e7;
-    padding: 250px;
+    padding: 150px 300px;
+}
+
+.container2 h1{
+    float: left;
+    color: #61082b;
+}
+
+.container2 .btn a{
+    background-color: #fff;
+    color: #000;
+}
+
+/*Sezione FAQ*/
+.sixth-section{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.sixth-section hr{
+    margin: 30px 0;
+}
+
+.question-answ{
+    position: relative;
+}
+
+.question-answ .fa-angle-down, .question-answ .fa-chevron-up{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fa-angle-down{
+    display: block;
+}
+
+.question-answ:hover .fa-angle-down{
+    display: none;
+}
+
+.fa-chevron-up{
+    display: none;
+}
+
+.question-answ:hover .fa-chevron-up{
+    display: block;
+}
+
+.answer{
+    margin: 20px 0;
+    display: none;
+}
+
+.question-answ:hover .answer{
+    display: block;
+}
+
+/*Footer*/
+
+footer{
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+}
+
+.foot{
+    width: 90%;
+    margin: 0 auto
+}
+
+.foot-column{
+    float: left;
+    width: 18%;
+    margin: 90px 0;
+}
+
+.foot-column h4{
+    margin-bottom: 30px;
+}
+
+.foot-column li{
+    list-style: none;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+footer hr{
+    width: 8%;
+    margin: 0 0 3% 5%;
+}
+
+.language{
+    margin: 0 0 0 5%;
+    font-size: 15px;
+    color: #999;
+}
+
+.fa-caret-up{
+    font-size: 12px;
 }
