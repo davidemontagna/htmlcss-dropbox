@@ -95,9 +95,14 @@ header{
     margin: 50px 0;
 }
 
+a .fa-arrow-down{
+    color: black;
+}
 .fa-arrow-down{
+    
     font-size: 40px;
     margin-top: 50px;
+    color: inherit;
 }
 
 .trial-image img{
